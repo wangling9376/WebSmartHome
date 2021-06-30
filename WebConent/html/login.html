@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Test Server</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='imge/favicon.ico') }}" type="image/x-icon">
+    <link href="{{ url_for('static', filename='css/test.css') }}" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <img class="bgimg" src="{{ url_for('static', filename='imge/login_background_img.png') }}" />
+    <!-- <dev class="bgimg">
+    </dev> -->
+    <div class="wrap">
+        <div class="container">
+            <h1 style="color: white; margin: 0; text-align: center">Login Test</h1>
+            <form>
+                <label><input type="text" placeholder="Your username"/></label>
+                <!-- <label><input type="text" placeholder="Your email"/></label> -->
+                <label><input type="password" placeholder="Password" /></label>
+                <!-- <label><input type="password" placeholder="Please confirm your password" /></label> -->
+        
+                    <input type="submit" value="Login"/>
+                    <p class="change_link" style="text-align: center">
+                        <span class="text">Already a member ?</span>
+                        <a href="http://81.68.67.233:80/WebConent/html/login.html" class="to_login"> Go and log in </a>
+                    </p>
+                    <p class="Bottom_statement_link" style="text-align: center">
+                            <span class="text">个人技术服务器测试</span>
+                            <a href="file:///C:/Users/14666/Desktop/login.html" class="to_login"> 声明 </a>
+                    </p>
+            </form>
+        </div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+</div>
+</body>
+</html>
